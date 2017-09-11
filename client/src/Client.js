@@ -19,6 +19,8 @@ function checkStatus(response) {
 }
 
 function parseJSON(response) {
+  // console.log(response.json());
+
   return response.json();
 }
 
